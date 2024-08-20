@@ -1,29 +1,25 @@
 package exercicios.gerenciamentoBiblioteca.dominio;
 
-public class Usuario {
+public class Usuario extends Biblioteca{
     private String nome;
     private int id;
     private Livro[] livros;
-    private String[] livrosUsuario;
+    private String[][] livrosUsuario;
 
     public Usuario(String nome, int id){
         this.nome = nome;
         this.id = id;
+        
     }
 
     public void adicionaLivro(Livro[] livros){
-        this.livrosUsuario = new String[livros.length];
-        int i=0;
+        System.out.println(livros.length);
+        this.livrosUsuario = new String[livros.length][5];
+        int tam=0;
 
 
         System.out.println("--- Empréstimo de Livro ---");
-        System.out.println("Livros disponíveis:");
-
-
-        for (Livro livro : livros) {
-            i++;
-            System.out.println(i+". "+livro.getTitulo());
-        }
+        listaLivro(livros);
 
         System.out.println("\nEscolha um título para pegar emprestado: ");
         int opcaoLivro = 2;
@@ -34,7 +30,14 @@ public class Usuario {
         }
 
         System.out.println("Você escolheu: "+livros[opcaoLivro-1].getTitulo());
-        this.livrosUsuario[opcaoLivro-1] = livros[opcaoLivro-1].getTitulo();
+
+        this.livrosUsuario[tam][0] = livros[opcaoLivro-1].getISBN();
+        this.livrosUsuario[tam][1] = livros[opcaoLivro-1].getTitulo();
+        this.livrosUsuario[tam][2] = livros[opcaoLivro-1].getAutor();
+        this.livrosUsuario[tam][3] = livros[opcaoLivro-1].getGenero();
+        this.livrosUsuario[tam][4] = livros[opcaoLivro-1].getAno_publicacao();    
+
+        System.out.println(this.livrosUsuario[tam][1]);
     }
 
     public void removeLivro(){
