@@ -44,19 +44,44 @@ public class Usuario extends Biblioteca{
     }
 
     public void devolveLivro(){
-        int i = 0;
-        // índice a ser removido recebe valor nulo
-        // valores posteriores ao nulo vão se reorganizar para o local do índice anterior (nulo)
+        System.out.println("\n--- Devolução de Livro ---");
+        livrosUsuario();
+        return;
+    }
+
+    public void livrosUsuario(){
+        System.out.println("\n--- Livros do Usuário ---");
+
+        int k = 0;
 
         for(int i=0; i < livrosUsuario.length; i++ ){
             for(int j=0; j<livrosUsuario[i].length; j++){
                 if(livrosUsuario[i][j] != null){
+                    switch (k) {
+                        case 0:
+                            System.out.print("ISBN: ");
+                            break;
+                        case 1:
+                            System.out.print("Tìtulo: ");
+                            break;
+                        case 2:
+                            System.out.print("Autor: ");
+                            break;
+                        case 3:
+                            System.out.print("Gênero: ");
+                            break;
+                        case 4:
+                            System.out.print("Ano de Publicação: ");
+                            break;
+                        default:
+                            break;
+                    }
                     System.out.println(livrosUsuario[i][j]);
+                    k++;
 
                 }
             }
         }
-        return;
     }
 
     public String getNome() {

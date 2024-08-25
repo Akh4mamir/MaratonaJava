@@ -16,7 +16,7 @@ public class BibliotecaTest {
         Usuario usuario1 = new Usuario("Yonah", 0);
 
         usuario1.pegaLivro(livros);
-        usuario1.devolveLivro();
+        usuario1.livrosUsuario();
 
         Biblioteca biblioteca = new Biblioteca();
         biblioteca.emprestimoLivro(livros, usuario1);
