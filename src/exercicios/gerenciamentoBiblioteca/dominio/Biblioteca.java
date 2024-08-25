@@ -6,32 +6,34 @@ public class Biblioteca{
 
     public void listaLivro(Livro[] livros){
         System.out.println("Livros disponíveis:");
+        int i=0;
 
         for (Livro livro : livros) {
-            int i=0;
             i++;
-            System.out.println(i+". "+livro.getTitulo());
-            System.out.println(i+". "+livro.getISBN());
-            System.out.println(i+". "+livro.getAutor());
-            System.out.println(i+". "+livro.getGenero());
-            System.out.println(i+". "+livro.getAno_publicacao());
-
+            System.out.println("\n"+i+". "+livro.getTitulo());
+            System.out.println("- ISBN: "+livro.getISBN());
+            System.out.println("- Autor: "+livro.getAutor());
+            System.out.println("- Gênero: "+livro.getGenero());
+            System.out.println("- Ano de Publicação: "+livro.getAno_publicacao());
+            System.out.println("----------------------------");
         }
     }
 
     public void emprestimoLivro(Livro[] livros, Usuario usuario){
-        System.out.println("--- Empréstimo de Livro ---");
+        int i = 0;
+        System.out.println("\n--- Empréstimo de Livro ---");
         String nome_teste = "Yonah";
         if(usuario.getNome().equals(nome_teste)){
             System.out.println("Informações de "+usuario.getNome());
             System.out.println("ID: "+usuario.getId());
 
-            System.out.println("--- Livros Disponíveis Para Empréstimo---");
+            System.out.println("\n--- Livros Disponíveis Para Empréstimo ---");
             if(livros == null){
                 return;
             }
             for (Livro livro : livros) {
-                System.out.println(livro.getTitulo());
+                i++;
+                System.out.println(i+". "+livro.getTitulo());
             }
         }
     }

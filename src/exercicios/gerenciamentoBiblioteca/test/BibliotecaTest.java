@@ -15,9 +15,10 @@ public class BibliotecaTest {
 
         Usuario usuario1 = new Usuario("Yonah", 0);
 
-        usuario1.adicionaLivro(livros);
+        usuario1.pegaLivro(livros);
+        usuario1.devolveLivro();
 
-        //Biblioteca biblioteca = new Biblioteca();
-        //biblioteca.emprestimoLivro(livros, usuario1);
+        Biblioteca biblioteca = new Biblioteca();
+        biblioteca.emprestimoLivro(livros, usuario1);
     }
 }
