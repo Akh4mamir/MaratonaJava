@@ -35,16 +35,17 @@ public class Usuario extends Biblioteca{
     }
 
     public void devolveLivro(){
+        int i=0;
         System.out.println("\n--- Devolução de Livro ---");
         System.out.println("\nDigite o ISBN do livro que deseja devolver: ");
         String opcaoLivro = "8934967315";
 
         for (String livrousuario : livrosUsuario) {
             if(opcaoLivro.equals(livrousuario)){
+                livrosUsuario[i] = null;
                 System.out.println("Livro devolvido com sucesso.");
-            } else{
-                System.out.println("ISBN não consta com nenhum tílulo emprestado.");
             }
+            i++;
         }
         
     }
