@@ -1,4 +1,4 @@
-package Gassociacao.dominio.exercicio;
+package javacore.Gassociacao.dominio.exercicio;
 
 public class Professor {
     private String nome;

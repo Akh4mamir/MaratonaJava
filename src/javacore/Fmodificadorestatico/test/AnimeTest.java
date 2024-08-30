@@ -1,5 +1,5 @@
-package Fmodificadorestatico.test;
-import Fmodificadorestatico.dominio.Anime;;
+package javacore.Fmodificadorestatico.test;
+import javacore.Fmodificadorestatico.dominio.Anime;;
 
 public class AnimeTest {
     public static void main(String[] args) {

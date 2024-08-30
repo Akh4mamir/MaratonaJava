@@ -1,4 +1,4 @@
-package Bintroducaometodos.dominio;
+package javacore.Bintroducaometodos.dominio;
 
 public class Funcionario {
     public String nome;

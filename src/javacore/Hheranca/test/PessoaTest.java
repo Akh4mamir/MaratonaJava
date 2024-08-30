@@ -1,8 +1,8 @@
-package Hheranca.test;
+package javacore.Hheranca.test;
 
-import Hheranca.dominio.Endereco;
-import Hheranca.dominio.Funcionario;
-import Hheranca.dominio.Pessoa;
+import javacore.Hheranca.dominio.Endereco;
+import javacore.Hheranca.dominio.Funcionario;
+import javacore.Hheranca.dominio.Pessoa;
 
 public class PessoaTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Dconstrutores.dominio;
+package javacore.Dconstrutores.dominio;
 
 public class Anime {
     private String nome;

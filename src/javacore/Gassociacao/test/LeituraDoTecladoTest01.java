@@ -1,4 +1,4 @@
-package Gassociacao.test;
+package javacore.Gassociacao.test;
 
 import java.util.Scanner;
 

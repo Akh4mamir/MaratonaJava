@@ -1,4 +1,4 @@
-package Npolimorfismo.dominio;
+package javacore.Npolimorfismo.dominio;
 
 public class Tomate extends Produto{
     public static final double IMPOSTO_POR_CENTO = 0.21;

@@ -1,7 +1,7 @@
-package Npolimorfismo.test;
+package javacore.Npolimorfismo.test;
 
-import Npolimorfismo.repositorio.Repositorio;
-import Npolimorfismo.servico.RepositorioBancoDeDados;
+import javacore.Npolimorfismo.repositorio.Repositorio;
+import javacore.Npolimorfismo.servico.RepositorioBancoDeDados;
 
 public class RepositorioTest {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package Gassociacao.test;
-import Gassociacao.dominio.Jogador;
-import Gassociacao.dominio.Time;
+package javacore.Gassociacao.test;
+import javacore.Gassociacao.dominio.Jogador;
+import javacore.Gassociacao.dominio.Time;
 
 public class JogadorTest02 {
     public static void main(String[] args) {

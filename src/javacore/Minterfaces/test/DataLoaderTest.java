@@ -1,7 +1,7 @@
-package Minterfaces.test;
+package javacore.Minterfaces.test;
 
-import Minterfaces.dominio.DataBaseLoader;
-import Minterfaces.dominio.FileLoader;
+import javacore.Minterfaces.dominio.DataBaseLoader;
+import javacore.Minterfaces.dominio.FileLoader;
 
 public class DataLoaderTest {
     public static void main(String[] args) {

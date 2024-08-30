@@ -1,9 +1,9 @@
-package Npolimorfismo.test;
+package javacore.Npolimorfismo.test;
 
-import Npolimorfismo.dominio.Computador;
-import Npolimorfismo.dominio.Produto;
-import Npolimorfismo.dominio.Tomate;
-import Npolimorfismo.servico.CalculadoraImposto;
+import javacore.Npolimorfismo.dominio.Computador;
+import javacore.Npolimorfismo.dominio.Produto;
+import javacore.Npolimorfismo.dominio.Tomate;
+import javacore.Npolimorfismo.servico.CalculadoraImposto;
 
 
 

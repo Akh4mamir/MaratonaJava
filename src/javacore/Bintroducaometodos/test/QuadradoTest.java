@@ -1,6 +1,6 @@
-package Bintroducaometodos.test;
+package javacore.Bintroducaometodos.test;
 
-import Bintroducaometodos.dominio.Quadrado;
+import javacore.Bintroducaometodos.dominio.Quadrado;
 
 public class QuadradoTest {
     public static void main(String[] args) {

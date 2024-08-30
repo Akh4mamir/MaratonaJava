@@ -1,4 +1,4 @@
-package Hheranca.dominio;
+package javacore.Hheranca.dominio;
 
 public class Funcionario extends Pessoa{
 

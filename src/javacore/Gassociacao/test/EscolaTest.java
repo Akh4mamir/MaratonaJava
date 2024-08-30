@@ -1,5 +1,5 @@
-package Gassociacao.test;
-import Gassociacao.dominio.*;
+package javacore.Gassociacao.test;
+import javacore.Gassociacao.dominio.*;
 
 public class EscolaTest {
     public static void main(String[] args) {

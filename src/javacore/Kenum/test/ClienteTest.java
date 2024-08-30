@@ -1,8 +1,8 @@
-package Kenum.test;
+package javacore.Kenum.test;
 
-import Kenum.dominio.Cliente02;
-import Kenum.dominio.TipoCliente;
-import Kenum.dominio.TipoPagamento;
+import javacore.Kenum.dominio.Cliente02;
+import javacore.Kenum.dominio.TipoCliente;
+import javacore.Kenum.dominio.TipoPagamento;
 
 public class ClienteTest {
     public static void main(String[] args) {

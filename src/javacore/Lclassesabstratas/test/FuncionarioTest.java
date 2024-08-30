@@ -1,6 +1,6 @@
-package Lclassesabstratas.test;
+package javacore.Lclassesabstratas.test;
 
-import Lclassesabstratas.dominio.Gerente;
+import javacore.Lclassesabstratas.dominio.Gerente;
 
 public class FuncionarioTest {
     public static void main(String[] args) {

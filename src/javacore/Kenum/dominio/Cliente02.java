@@ -1,4 +1,4 @@
-package Kenum.dominio;
+package javacore.Kenum.dominio;
 
     public class Cliente02 {
     private String nome;

@@ -1,4 +1,4 @@
-package Minterfaces.dominio;
+package javacore.Minterfaces.dominio;
 
 public class DataBaseLoader implements DataLoader, DataRemover {
 

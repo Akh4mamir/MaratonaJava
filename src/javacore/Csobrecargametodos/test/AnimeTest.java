@@ -1,5 +1,5 @@
-package Csobrecargametodos.test;
-import Csobrecargametodos.dominio.Anime;
+package javacore.Csobrecargametodos.test;
+import javacore.Csobrecargametodos.dominio.Anime;
 
 
 public class AnimeTest {

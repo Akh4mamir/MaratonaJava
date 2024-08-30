@@ -1,4 +1,4 @@
-package Lclassesabstratas.dominio;
+package javacore.Lclassesabstratas.dominio;
 
 public class Gerente extends Funcionario{
 

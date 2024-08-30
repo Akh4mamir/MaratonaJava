@@ -1,5 +1,5 @@
-package Dconstrutores.test;
-import Dconstrutores.dominio.Anime;
+package javacore.Dconstrutores.test;
+import javacore.Dconstrutores.dominio.Anime;
 
 
 public class AnimeTest {

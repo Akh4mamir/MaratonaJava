@@ -1,6 +1,6 @@
-package Isobrescrita.test;
+package javacore.Isobrescrita.test;
 
-import Isobrescrita.dominio.Anime;
+import javacore.Isobrescrita.dominio.Anime;
 
 public class AnimeTest {
     public static void main(String[] args) {

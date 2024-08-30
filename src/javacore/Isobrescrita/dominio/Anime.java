@@ -1,4 +1,4 @@
-package Isobrescrita.dominio;
+package javacore.Isobrescrita.dominio;
 
 public class Anime {
     private String nome;

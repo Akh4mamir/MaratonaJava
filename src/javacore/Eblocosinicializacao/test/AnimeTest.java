@@ -1,5 +1,5 @@
-package Eblocosinicializacao.test;
-import Eblocosinicializacao.dominio.Anime;
+package javacore.Eblocosinicializacao.test;
+import javacore.Eblocosinicializacao.dominio.Anime;
 
 public class AnimeTest {
     public static void main(String[] args) {

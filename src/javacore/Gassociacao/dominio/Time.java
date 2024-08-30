@@ -1,4 +1,4 @@
-package Gassociacao.dominio;
+package javacore.Gassociacao.dominio;
 
 public class Time {
     private String nome;

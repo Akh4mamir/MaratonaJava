@@ -1,6 +1,6 @@
-package Npolimorfismo.servico;
+package javacore.Npolimorfismo.servico;
 
-import Npolimorfismo.repositorio.Repositorio;
+import javacore.Npolimorfismo.repositorio.Repositorio;
 
 public class RepositorioBancoDeDados implements Repositorio{
 

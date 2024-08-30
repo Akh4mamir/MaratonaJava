@@ -1,4 +1,4 @@
-package Jmodificadorfinal.dominio;
+package javacore.Jmodificadorfinal.dominio;
 
 public class Comprador {
     private String nome;

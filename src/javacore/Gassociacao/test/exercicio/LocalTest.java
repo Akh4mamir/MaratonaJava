@@ -1,6 +1,6 @@
-package Gassociacao.test.exercicio;
+package javacore.Gassociacao.test.exercicio;
 
-import Gassociacao.dominio.exercicio.Local;;
+import javacore.Gassociacao.dominio.exercicio.Local;;
 
 public class LocalTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Gassociacao.dominio.exercicio;
+package javacore.Gassociacao.dominio.exercicio;
 
 public class Seminario {
     private String titulo;

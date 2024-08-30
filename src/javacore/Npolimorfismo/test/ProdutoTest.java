@@ -1,9 +1,9 @@
-package Npolimorfismo.test;
+package javacore.Npolimorfismo.test;
 
-import Npolimorfismo.dominio.Computador;
-import Npolimorfismo.dominio.Tomate;
-import Npolimorfismo.dominio.Televisao;
-import Npolimorfismo.servico.CalculadoraImposto;
+import javacore.Npolimorfismo.dominio.Computador;
+import javacore.Npolimorfismo.dominio.Tomate;
+import javacore.Npolimorfismo.dominio.Televisao;
+import javacore.Npolimorfismo.servico.CalculadoraImposto;
 
 public class ProdutoTest {
     public static void main(String[] args) {

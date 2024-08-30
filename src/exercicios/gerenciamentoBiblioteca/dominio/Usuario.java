@@ -5,6 +5,7 @@ public class Usuario extends Biblioteca{
     private int id;
     private Livro[] livros;
     private String[] livrosUsuario;
+    private int index = 0;
 
     public Usuario(String nome, int id){
         this.nome = nome;
@@ -25,19 +26,47 @@ public class Usuario extends Biblioteca{
         if(opcaoLivro < 1){
             System.out.println("Escolha um valor que esteja de acordo com o índice!");
             return;
-        
         }
+
+        System.out.println("Você escolheu: "+livros[opcaoLivro-1].getTitulo());
+        livrosUsuario[index] = livros[opcaoLivro-1].getISBN();
+        index++;
+        System.out.println("Solicitação completa.");
     }
 
     public void devolveLivro(){
         System.out.println("\n--- Devolução de Livro ---");
-        livrosUsuario();
-        return;
+        System.out.println("\nDigite o ISBN do livro que deseja devolver: ");
+        String opcaoLivro = "8934967315";
+
+        for (String livrousuario : livrosUsuario) {
+            if(opcaoLivro.equals(livrousuario)){
+                System.out.println("Livro devolvido com sucesso.");
+            } else{
+                System.out.println("ISBN não consta com nenhum tílulo emprestado.");
+            }
+        }
+        
     }
 
-    public void livrosUsuario(){
+    public void livrosUsuario(Livro[] livros){
+        int i=0;
         System.out.println("\n--- Livros do Usuário ---");
-        return;
+
+        for (Livro livro : livros) {
+            for(String livrosusuario : livrosUsuario){
+                if(livrosusuario != null && livrosusuario.equals(livro.getISBN())){
+                    i++;
+                    System.out.println("\n"+i+". "+livro.getTitulo());
+                    System.out.println("- ISBN: "+livro.getISBN());
+                    System.out.println("- Autor: "+livro.getAutor());
+                    System.out.println("- Gênero: "+livro.getGenero());
+                    System.out.println("- Ano de Publicação: "+livro.getAno_publicacao());
+                    System.out.println("----------------------------");
+                }
+            }
+        }  
+        
     }
 
     public String getNome() {

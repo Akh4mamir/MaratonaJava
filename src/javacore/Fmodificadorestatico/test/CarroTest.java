@@ -1,5 +1,5 @@
-package Fmodificadorestatico.test;
-import Fmodificadorestatico.dominio.Carro;
+package javacore.Fmodificadorestatico.test;
+import javacore.Fmodificadorestatico.dominio.Carro;
 
 
 public class CarroTest {

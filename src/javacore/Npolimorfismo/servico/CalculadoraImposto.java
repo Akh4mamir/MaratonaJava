@@ -1,7 +1,7 @@
-package Npolimorfismo.servico;
+package javacore.Npolimorfismo.servico;
 
-import Npolimorfismo.dominio.Produto;
-import Npolimorfismo.dominio.Tomate;
+import javacore.Npolimorfismo.dominio.Produto;
+import javacore.Npolimorfismo.dominio.Tomate;
 
 
 public class CalculadoraImposto {

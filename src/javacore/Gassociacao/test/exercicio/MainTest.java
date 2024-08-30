@@ -1,6 +1,6 @@
-package Gassociacao.test.exercicio;
+package javacore.Gassociacao.test.exercicio;
 
-import Gassociacao.dominio.exercicio.*;
+import javacore.Gassociacao.dominio.exercicio.*;
 
 public class MainTest {
     public static void main(String[] args) {
